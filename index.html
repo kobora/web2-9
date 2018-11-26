@@ -1,6 +1,27 @@
-<seript type="text/javascript" src="https://code.jquery.com/jquery3-2.1.min.js"></script>
-
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset=“utf-8”>
+        
+      <title>初めてのｊQuery
+      </title>
+       <seript type="text/javascript" src="https://code.jquery.com/jquery3-2.1.min.js"></script>
+      <seript type="text/javascript">
+        
 $(function(){
-$("p").css("color", "red");
+      $("#toggle").on("dblclick",function(){  
+$("#target").fadeToggle("slow");
 });
+       }); 
+        </script>
+    </head>
+    <body>
+      <div id="target">赤髪のとも</div>
+<button id="toggle">変更</button>
+    </body>
+</html>
+
+
+
+
                                     
