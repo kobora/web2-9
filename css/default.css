@@ -26,7 +26,7 @@ fony-size: 16px
  }
 
 .btn:active{
-color: #000000;
+color: #022000;
 }
 
 .btn-submit{
@@ -50,7 +50,7 @@ thead th, tfoot th{
 }
 
 thead td{
- color: white;
+ color: red;
  backgrouhd-color: lighcoral;
  text-align: center;
 }
