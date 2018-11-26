@@ -50,7 +50,7 @@ thead th, tfoot th{
 }
 
 thead td{
- color: white;
+ color: red;
  backgrouhd-color: lighcoral;
  text-align: center;
 }
